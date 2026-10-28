@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugins><pyqgis_plugin name="UTEC Layer Tools" version="1.6"><version>1.6</version><changelog>
+Version 1.6:
+- 👍 Verbesserung: kleine Verbesserungen am pdf-Export
+- 👍 Verbesserung: verbessertes Drucklayout-Menu
+- 👍 Verbesserung: Legende in Drucklayout eingefügt
+- 👍 Verbesserung: Plankopf in A3 und A4 verkleinert
+
+Version 1.5:
+- ✨ Neue Funktion: Layouts als pdf exportieren (mehrere gleichzeitig)
+- 👍 Verbesserung: Beim Erstellen eines Layouts können mehr Informationen für den Plankopf eingegeben werden
+- 🐞 Bugfix: GeoPackageIndicator von unload entfernt
+
+Version 1.4a:
+- 👍 Verbesserung: Im Plankopf kann jetzt auch eine Quelle für die Hintergrundkarten angegeben werden.
+
+Version 1.4:
+- ✨ Neue Funktion: Projektvariablen → Hiermit können Metadaten wie "Bauherr" oder "Projektname" definiert werden. Diese Daten können z.B. im Plankopf automatisch eingetragen werden.
+- 👍 Verbesserung: Bei der Erstellung eines Drucklayouts können jetzt Angaben zu Bauherr etc. eingegeben werden.
+- Diese Angaben werden dann in den Projektvariablen gespeichert und auf alle Layouts angewendet.
+- Die Angabe "Planart" ist für jedes Layout individuell.
+- Einige Angaben, wie Projektnummer, werden falls möglich aus dem Dateinamen ermittelt
+- Alle Angaben können entweder in den Projektvariablen oder in den separaten Layouts manuell angepasst werden.
+- 🤏 Kleine Verbesserung: Menu aufgeräumt
+- 🐞 Bugfix: "UTEC Projekt-GeoPackage" im QGIS Browser (siehe Version 1.0) entfernt, weil es die normale Funktion des Browsers beeinträchtigt hat
+
+Version 1.3:
+- ✨ Neue Funktion: Drucklayouts
+Es können neue Drucklayouts im Gewünschten Papierformat mit Rahmen und Plankopf erstellt werden.
+
+Version 1.2:
+- ✨ Neuer Indikator für Layer, die die gleiche Datenquelle benutzen.
+- ✨ Warnung, falls Layer im Projekt-GeoPackage, die in Benutzung sind, überschrieben werden.
+- 🐞 Bugfix: Das Projekt-GeoPackage wird erzeugt, falls es noch nicht existiert. (Beim Kopieren von Layern ins GeoPackage)
+
+Version 1.1:
+- Kompatibilität mit QGIS 4.0
+- dynamische Symbole (die hoffentlich auf hellem, sowie dunklem Hintergrund deutlich sind)
+- bugfix: Fehler beim Erstennen eines neuen Projekts - bevor es abgespeichert ist
+- bugfix: Fehler beim Entfernen des Plugins
+
+Version 1.0:
+- ✨ Neue Funktion: "UTEC Projekt-GeoPackage" im QGIS Browser
+- Das Projekt-GeoPackage wird mit einem Symbol versehen, damit es leichter zu finden und zu verwalten (aufzuräumen) ist
+- Das Projekt-GeoPackage bekommt einen eigenen Abschnitt im Browser
+- Layer im Projekt-GeoPackage bekommen Sternchen, um anzuzeigen, welche im aktuellen Projekt verwendet werden
+- interne Verbesserungen zur Leistungsoptimierung und zur Verwendung von Ressourcen (icons)
+- Überarbeitung der Benachrichtigungen nach Durchlauf
+
+Version 0.9:
+- Aktualisierung der Symbole zur Datenquelle bei Änderungen am Layer (z.B. wenn Objekte zu einem leeren Layer hinzugefügt werden)
+- Auch bei leeren Layern wird jetzt angezeigt, wo sie abgespeichert sind.
+- bugfix: beim Verschieben von Layern verliert er nicht mehr seine Datenquellen-Symbole
+- Leistungsverbesserungen
+
+Version 0.8:
+- ✨ Neue Funktion: "Versand"
+- Im Projektodner wird ein "Versand"-Ordner erstellt
+- Ausgewähnlte Layer werden in einem GeoPackage gespeichert in diesem Ordner gespeichert
+- In dem Ordner wird eine Projektdatei erstellt, damit die Layer gleich aussehen wie im Projekt
+- Projektdatei und GeoPackage können zusammen versendet werden.
+- im Hintergrund werden Ressourcen anders verwendet (ohne Kompilieren)
+
+Version 0.7:
+- bugfix bei Erstellung eines neuen Projekt-GeoPackages
+
+Version 0.6:
+- Beschriftung der Funktionen verbessert
+- bugfix: Layer, die nicht in einer Gruppe sind, werden nicht mehr umbenannt.
+
+Version 0.5:
+- Neue Kategorien für Layer:
+- GeoPackage, aber nicht Projekt-GeoPackege
+- Kein GeoPackage (aber im Projektordner)
+
+Version 0.4.1:
+- Tool Tips der Symbole überarbeitet
+
+Version 0.4:
+- Symbole, die die Datenquelle der Layer anzeigen
+
+Version 0.3:
+- Beim Verschieben wird der Stil des Layers vom Ursprungslayer übernommen
+- Umbenennen kann rückgängig gemacht werden.
+
+Version 0.2:
+- erster Release</changelog><description>Verschiedene Werkzeuge zur Darstellung, Benennung und zum Speichern von Layern. Icons: www.svgrepo.com</description><qgis_minimum_version>3.40</qgis_minimum_version><qgis_maximum_version>4.99</qgis_maximum_version><author_name>Florian Ludwig</author_name><email>immerse-vowel-dole@duck.com</email><file_name>UTEC_Layer_Tools.zip</file_name><download_url>https://utec-gmbh.github.io/QGIS-Plugin-Releases/UTEC_Layer_Tools.zip</download_url></pyqgis_plugin></plugins>
