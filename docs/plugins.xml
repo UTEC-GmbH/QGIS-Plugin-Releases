@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugins><pyqgis_plugin name="UTEC Layer Tools" version="1.7"><version>1.7</version><changelog>
+<plugins><pyqgis_plugin name="UTEC Layer Tools" version="1.8"><version>1.8</version><changelog>
+
+Version 1.8:
+- ✨ Neue Funktion: GeoPackage aufräumen
+- 🐞 Bugfix: Nordpfeil wird nach Drehung der Karte nicht mehr ungewollt verschoben
+- 🤏 diverse kleine Verbesserungen an Drucklayouts
+
 Version 1.7:
 - ✨ Neue Funktion: Layer direkt im Geopackage erstellen
 - ✨ Neue Funktion: Layer aus dem Projekt und gleichzeitig aus dem Geopackage löschen
