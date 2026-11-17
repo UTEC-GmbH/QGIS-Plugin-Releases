@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugins><pyqgis_plugin name="UTEC Layer Tools" version="2.0"><version>2.0</version><changelog>
+<plugins><pyqgis_plugin name="UTEC Layer Tools" version="2.1"><version>2.1</version><changelog>
+
+Version 2.1:
+- 👍 Verbesserung: Wenn Datenquellen aus dem GeoPackage gelöscht werden, wird auch gleich VACUUM ausgeführt, um den Speicherplatz freizugeben
 
 Version 2.0:
 - 👍 Verbesserung: In der GeoPackage-Verwaltung können jetzt alle ungenutzten Datenquellen gleichzeitig gelöscht werden
