@@ -107,4 +107,10 @@ Version 0.3:
 - Umbenennen kann rückgängig gemacht werden.
 
 Version 0.2:
-- erster Release</changelog><description>Verschiedene Werkzeuge zur Darstellung, Benennung und zum Speichern von Layern. Icons: www.svgrepo.com</description><qgis_minimum_version>3.40</qgis_minimum_version><qgis_maximum_version>4.99</qgis_maximum_version><author_name>Florian Ludwig</author_name><email>immerse-vowel-dole@duck.com</email><file_name>UTEC_Layer_Tools.zip</file_name><download_url>https://utec-gmbh.github.io/QGIS-Plugin-Releases/UTEC_Layer_Tools.zip</download_url></pyqgis_plugin></plugins>
+- erster Release</changelog><description>Verschiedene Werkzeuge zur Darstellung, Benennung und zum Speichern von Layern. Icons: www.svgrepo.com</description><qgis_minimum_version>3.40</qgis_minimum_version><qgis_maximum_version>4.99</qgis_maximum_version><author_name>Florian Ludwig</author_name><email>immerse-vowel-dole@duck.com</email><file_name>UTEC_Layer_Tools.zip</file_name><download_url>https://utec-gmbh.github.io/QGIS-Plugin-Releases/UTEC_Layer_Tools.zip</download_url></pyqgis_plugin><pyqgis_plugin name="UTEC DHN" version="1.0"><version>1.0</version><changelog>
+
+Version 1.0:
+- ✨ erste funktionsfähige Version
+
+Version 0.1:
+- Prototyp</changelog><description>Netzanalyse inkl. Massenermittlung</description><qgis_minimum_version>3.40</qgis_minimum_version><qgis_maximum_version>4.99</qgis_maximum_version><author_name>Florian Ludwig</author_name><email>devalue-scope-drum@duck.com</email><file_name>UTEC_DHN.zip</file_name><download_url>https://utec-gmbh.github.io/QGIS-Plugin-Releases/UTEC_DHN.zip</download_url></pyqgis_plugin></plugins>
